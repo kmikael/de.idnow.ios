@@ -20,7 +20,6 @@ Pod::Spec.new do |spec|
   
   spec.source_files = 'idnow-sdk/include/**/*.h'
   spec.public_header_files = 'idnow-sdk/include/**/*.h'
-  spec.header_dir = 'include'
   spec.vendored_libraries  = 'idnow-sdk/libidnow-sdk-universal.a'
   
   spec.resources = ['idnow-sdk/resources']
