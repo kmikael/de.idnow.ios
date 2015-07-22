@@ -8,20 +8,11 @@
 
 ## Installation
 
-- Add the following pod dependencies to your podfile:
-```
-pod 'Masonry', '0.6.1'
-pod 'SocketRocket', '0.3.1-beta2'
-pod 'AFNetworking', '2.5.3'
-pod 'UIAlertView+Blocks', '0.8.1'
-pod 'OpenTok', '2.4.1'
-```
-- Copy the idnow-sdk folder to your project directory or add the repo as a git submodule.
-- Drag idnow-sdk folder into your Xcode project
-- Import „IDnowSDK.h“
+- Add the following to your *Podfile*:
 
-Note: To get the sample project work, you have to call "pod install" to install dependencies.
-
+```
+pod "HockeySDK"
+```
 
 ## Usage
 
